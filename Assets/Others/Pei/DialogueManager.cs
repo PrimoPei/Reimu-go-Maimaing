@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
     public Image characterImage;      // 角色图像 UI
     public Button nextButton;         // "下一句" 按钮
 
-    private Queue<DialogueLine> dialogueQueue = new Queue<DialogueLine>();
+    private System.Collections.Generic.Queue<DialogueLine> dialogueQueue = new System.Collections.Generic.Queue<DialogueLine>();
 
     void Start()
     {
